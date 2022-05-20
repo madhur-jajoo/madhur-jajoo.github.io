@@ -1,0 +1,29 @@
+# domain: madhurjajoo.com
+url: https://madhurjajoo.com # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/" # the subpath of your site, e.g. /blog
+
+theme: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+
+# include:
+#   - _pages
+
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - LICENSE
+  - README.md

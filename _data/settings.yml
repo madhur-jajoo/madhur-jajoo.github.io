@@ -1,0 +1,87 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: Madhur Jajoo
+logo:
+author: madhur-jajoo
+description: Portfolio - Madhur Jajoo
+email: madhurjajoo@hotmail.com
+phone: +91 7814 306 770
+address: Assam, INDIA
+copyright: Copyright &copy; 2022 [Madhur Jajoo](https://madhurjajoo.com) & Built using [Jekyll](https://jekyllrb.com)
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m <br> Madhur Jajoo,<br> DevOps Engineer
+
+social:
+  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/madhurjajoo/" }
+  - { icon: "ti-twitter", link: "https://twitter.com/jajoo_madhur" }
+  - { icon: "ti-github", link: "https://github.com/madhur-jajoo" }
+  - { icon: "ti-email", link: "mailto:madhurjajoo@hotmail.com" }
+  - { icon: "ti-mobile", link: "tel:+917814306770" }
+
+#-------------------------------
+# About Section
+
+blurb:
+  Born in the millennial, I always had silicon chips in my hand. My interest in technical field drove me to complete my graduation in Computer Science Engineering fom one of India's top universities, Lovely Professional University.
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+  - { name: Docker, color: "#fdb157", value: "80%" }
+  - { name: Node.js, color: "#9473e6", value: "60%" }
+  - { name: AWS & Azure, color: "#bdecf6", value: "60%" }
+  - { name: Data Structures & Algorithms, color: "#ffbcaa", value: "70%" }
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+  - {
+      name: DevOps & Systems Engineer,
+      icon: "icon-3.png",
+      date: "August 2019 - Present",
+      organization: "Tata Consultancy Services Ltd.",
+    }
+  - {
+      name: Web Developer,
+      icon: "icon-1.png",
+      date: "June 2018 - May 2019",
+      organization: "VenturePact LLC. (Internship)",
+    }
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+  - {
+      name: Bachelors' in Computer Science,
+      date: "2019",
+      organization: "Lovely Professional University, Punjab, INDIA",
+    }
+  - {
+      name: Higher Secondary,
+      date: "2015",
+      organization: "North Lakhimpur College, Assam, INDIA",
+    }
+  - {
+      name: Secondary School,
+      date: "2012",
+      organization: "Brookfield School, Assam, INDIA",
+    }
+
+#-------------------------------
+# Contact Section
+
+contact-title: Connect Me
+contact-email: madhurjajoo@hotmail.com
